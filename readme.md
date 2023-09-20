@@ -21,17 +21,22 @@ composer require "exocet/yii2-upload-file-behavior"
 
 ## Setup and Configuration
 
-1. Add the upload file attribute to your model:
+1. Include new behavior:
+    ```php
+    use exocet\yii2UploadFileBehavior\UploadFileBehavior;
+    ```
+
+2. Add the upload file attribute to your model:
     ```php
     public $upload_file;
     ```
 
-2. Add safety rules for your image path or similar:
+3. Add safety rules for your image path or similar:
     ```php
     [['image_path'], 'safe'],
     ```
 
-3. Attach the behavior to your model:
+4. Attach the behavior to your model:
     ```php
     public function behaviors() {
         return [

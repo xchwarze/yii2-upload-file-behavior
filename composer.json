@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "exocet\\yii2-upload-file-behavior\\": "src"
+      "exocet\\yii2UploadFileBehavior\\": "src"
     }
   }
 }
