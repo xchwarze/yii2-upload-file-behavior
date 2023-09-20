@@ -1,0 +1,30 @@
+{
+  "name": "exocet/yii2-upload-file-behavior",
+  "description": "A Yii2 behavior designed to simplify the process of uploading and managing files and images associated with ActiveRecord models.",
+  "keywords": [
+    "yii", "yii2", "behavior", "uploader"
+  ],
+  "version": "1.0.0",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/xchwarze/yii2-upload-file-behavior/issues",
+    "source": "https://github.com/xchwarze/yii2-upload-file-behavior"
+  },
+  "authors": [
+    {
+      "name": "DSR!",
+      "email": "xchwarze@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0.0",
+    "yiisoft/yii2-imagine": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "exocet\\yii2-upload-file-behavior\\": "src"
+    }
+  }
+}
